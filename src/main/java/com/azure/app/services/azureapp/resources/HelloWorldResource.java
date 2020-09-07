@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloWorldResource {
-
+	
 	@Value("${environment}")
 	private String environment;
 
 	@GetMapping("/{name}")
 	public String getHello(@PathVariable("name") String name) {
-		return "Hello " + name + " " + environment;
+		return "Hello " + name+" "+environment;
 
 	}
-
+	
 }
