@@ -1,2 +1,2 @@
 # azure-app test
-sample app for azure app service demo
+sample app to demo azure app service feature
